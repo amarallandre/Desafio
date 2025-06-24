@@ -1,20 +1,31 @@
-# Laboratório Azure Speech Studio & Language Studio
+# Laboratório Azure Speech e Language Studio 🎙️
 
-## 🎯 Objetivo
-Este laboratório tem como objetivo praticar e aprofundar o uso das ferramentas **Azure Speech Studio** e **Azure Language Studio**, com foco em análise de fala e linguagem natural. O objetivo final é desenvolver habilidades práticas e registrar insights úteis para futuras implementações em projetos de IA.
+Este repositório contém a prática realizada com os serviços de **Speech-to-Text**, **Text-to-Speech** e **Language Studio (LUIS)**, usando como exemplo a música _"Imagine"_ de John Lennon.
 
-## 🛠️ Ferramentas Utilizadas
-- Azure Speech Studio
-- Azure Language Studio
-- Azure Portal
+## 🧪 Objetivos
 
-## 📦 Entregáveis
-- Documentação da configuração e uso dos serviços
-- Testes realizados com exemplos de entrada e saída
-- Anotações de dificuldades e boas práticas
-- Prints das interfaces e configurações realizadas
+- Transcrever fala com **Speech-to-Text**
+- Gerar áudio com vozes neurais usando **Text-to-Speech**
+- Analisar intenção e sentimento usando **Language Studio**
 
-## 📚 Organização
-- `speech-studio/`: práticas e anotações sobre transcrição de fala, síntese e entendimento de intenções.
-- `language-studio/`: práticas com análise de sentimentos, extração de entidades e classificação de texto.
-- `insights/`: anotações de aprendizado, ideias de uso e melhorias.
+## 🎵 Trecho utilizado:
+> _"Imagine all the people living life in peace..."_
+
+## 📂 Organização
+
+```text
+azure-speech-lab/
+├── README.md
+├── speech-to-text/
+│   └── README.md
+├── text-to-speech/
+│   └── README.md
+├── language-analysis/
+│   └── README.md
+```
+
+## 💡 Insights
+
+- A transcrição é sensível à música de fundo. Para melhores resultados, use voz limpa.
+- O uso de SSML melhora bastante a naturalidade da voz sintetizada.
+- O reconhecimento de intenção funcionou bem para frases simples, mesmo com vocabulário abstrato.
